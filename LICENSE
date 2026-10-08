@@ -1,0 +1,42 @@
+Corpus Impulsion (version publique)
+Copyright (c) 2026 impulsion.com. Tous droits réservés.
+
+Ce dépôt est mis à disposition publiquement pour consultation et pour un usage
+dans votre propre activité de media buying (vos comptes, ceux de vos clients).
+
+Sans accord écrit préalable d'impulsion.com, il est interdit de reproduire,
+redistribuer, republier, revendre ou intégrer à une offre commerciale (formation,
+produit, service) tout ou partie du contenu de ce dépôt.
+
+Le contenu est fourni « en l'état », sans garantie d'aucune sorte.
+
+Contact : contact@impulsion.com
+
+--------------------------------------------------------------------------------
+Composants tiers
+
+La structure des skills d'audit (dossier skills/) est adaptée de claude-ads
+(https://github.com/AgriciDaniel/claude-ads), distribué sous licence MIT. Ces
+éléments restent couverts par la licence suivante :
+
+MIT License
+
+Copyright (c) 2026 agricidaniel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

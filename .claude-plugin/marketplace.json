@@ -1,0 +1,34 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "corpus-impulsion",
+  "owner": {
+    "name": "impulsion.com",
+    "url": "https://impulsion.com"
+  },
+  "metadata": {
+    "description": "Corpus Impulsion — bibliothèque opérationnelle de media buying en français et skills Claude Code associées.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "corpus-impulsion",
+      "source": "./",
+      "version": "1.0.0",
+      "description": "308 documents opérationnels de media buying en français (Google Ads, Meta Ads, TikTok Ads, landing pages, stratégie) et 13 skills : stratégie et plan média, création de campagnes Google et Meta, site vitrine WordPress, audits pondérés par plateforme.",
+      "category": "marketing",
+      "tags": [
+        "media-buying",
+        "google-ads",
+        "meta-ads",
+        "tiktok-ads",
+        "audit",
+        "francais"
+      ],
+      "author": {
+        "name": "impulsion.com",
+        "url": "https://impulsion.com"
+      },
+      "license": "Tous droits réservés impulsion.com (contenu du corpus) + MIT (base des skills d'audit, AgriciDaniel)"
+    }
+  ]
+}
