@@ -17,6 +17,8 @@ Chemins relatifs à la racine du corpus. Types : `SOP` procédure à exécuter �
 ### 01-strategie/cible/
 
 - `Cible - Définir l'avatar (ICP).md` — SOP
+- `Cible - Mener la recherche voix du client.md` — SOP
+- `Cible - [Review] Qualité de l'avatar.md` — CHK
 
 ### 01-strategie/experimentation/
 
@@ -56,6 +58,9 @@ Chemins relatifs à la racine du corpus. Types : `SOP` procédure à exécuter �
 ### 01-strategie/offre/
 
 - `Offre - Créer une offre irrésistible.md` — SOP
+- `Offre - Définir les croyances nécessaires.md` — SOP
+- `Offre - Mécanisme du problème et de la solution.md` — FICHE
+- `Offre - Rédiger le brief d'offre.md` — SOP
 - `Offre - Travailler vos angles d'offre.md` — SOP
 - `Offre - [Review] Audit de l'offre.md` — CHK
 - `Offre - [Review] Qualité des angles d'offre.md` — CHK
@@ -65,6 +70,7 @@ Chemins relatifs à la racine du corpus. Types : `SOP` procédure à exécuter �
 - `Rédaction - Méthodes de copie (AIDA, PAS, BAB, 4U).md` — FICHE
 - `Rédaction - Niveaux de conscience.md` — SOP
 - `Rédaction - Principes de persuasion (Cialdini).md` — FICHE
+- `Rédaction - Sophistication du marché.md` — FICHE
 
 ### 01-strategie/reporting/
 
@@ -452,4 +458,4 @@ Chemins relatifs à la racine du corpus. Types : `SOP` procédure à exécuter �
 
 ---
 
-**308 documents indexés.**
+**314 documents indexés.**

@@ -88,7 +88,7 @@ Après avoir ajouté, renommé ou supprimé des documents, régénère l'index q
 python skills/impulsion-corpus/scripts/generer_index.py
 ```
 
-Le script relit les 308 documents, extrait leur type depuis l'en-tête (`> **Type :** SOP`) et réécrit `skills/impulsion-corpus/references/index-corpus.md`. Il ne modifie aucun document du corpus.
+Le script relit les 314 documents, extrait leur type depuis l'en-tête (`> **Type :** SOP`) et réécrit `skills/impulsion-corpus/references/index-corpus.md`. Il ne modifie aucun document du corpus.
 
 Comme le plugin est chargé sur place, il n'y a **rien d'autre à faire** : ni réinstallation, ni `claude plugin update`. La modification est active à la session suivante.
 

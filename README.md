@@ -2,7 +2,7 @@
 
 Base de connaissances pour Media Buyers — par [impulsion.com](https://impulsion.com)
 
-308 documents opérationnels (Stratégie, Site Web, Google Ads, Meta Ads, TikTok Ads) conçus pour être lisibles par un humain et exploitables par un agent IA (Claude, ChatGPT, etc.). Un dossier `00-contexte/` accueille le contexte de chaque client/projet à remplir.
+314 documents opérationnels (Stratégie, Site Web, Google Ads, Meta Ads, TikTok Ads) conçus pour être lisibles par un humain et exploitables par un agent IA (Claude, ChatGPT, etc.). Un dossier `00-contexte/` accueille le contexte de chaque client/projet à remplir.
 
 > Voir [CHANGELOG.md](CHANGELOG.md) pour la dernière mise à jour.
 
@@ -47,18 +47,18 @@ corpus-impulsion/
 │
 ├── 00-contexte/                 ⚠️ à remplir OBLIGATOIREMENT avant d'utiliser le corpus
 │   ├── comptes-pubs.md          identifiants de comptes & accès
-│   └── projet-1/       (6)      entreprise, finance, marché, offre, cible, acquisition
+│   └── projet-1/       (7)      entreprise, finance, marché, offre, recherche, cible, acquisition
 │                                (dupliquer en projet-2/… pour un autre client)
 │
 ├── 01-strategie/
 │   ├── fondamentaux/   (22)     concepts business, push/pull, lexique KPI
 │   ├── reporting/      (8)      reporting hebdo, mensuel et trimestriel
-│   ├── offre/          (4)      audit, offre, angles
-│   ├── redaction/      (3)      niveaux de conscience, Cialdini, méthodes de copie
+│   ├── offre/          (7)      audit, offre, angles, mécanismes, croyances, brief d'offre
+│   ├── redaction/      (4)      niveaux de conscience, sophistication du marché, Cialdini, méthodes de copie
 │   ├── analyse/        (3)      rentabilité, budget, veille concurrentielle
 │   ├── objectifs/      (2)      modèles et checklist pour les objectifs et KPIs
 │   ├── experimentation/(2)      suivi des tests
-│   └── cible/          (1)      définir l'avatar (ICP)
+│   └── cible/          (3)      recherche voix du client, avatar (ICP), checklist qualité
 │
 ├── 02-site-web/
 │   ├── construction/   (6)      LP conversion, e-commerce, page produit, tunnel, site vitrine
@@ -151,12 +151,12 @@ Suivi de la section **"Ce que ce document fait / ne fait pas"** avec liens vers 
 | Plateforme | Documents |
 |---|---|
 | 00-contexte/ | gabarits à remplir |
-| 01-strategie/ | 45 |
+| 01-strategie/ | 51 |
 | 02-site-web/ | 18 |
 | 03-google-ads/ | 209 |
 | 04-meta-ads/ | 14 |
 | 05-tiktok-ads/ | 22 |
-| **Total (opérationnels)** | **308** |
+| **Total (opérationnels)** | **314** |
 
 ---
 

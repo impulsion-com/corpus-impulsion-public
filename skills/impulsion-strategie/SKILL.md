@@ -33,7 +33,7 @@ Après le popup, pose **une relance texte courte** pour les champs libres essent
 
 ## Étape 2 — Recherche marché (deep-research + firecrawl)
 
-Lance **les deux** en parallèle, avec les infos de l'intake :
+Lance **les trois** en parallèle, avec les infos de l'intake :
 
 **A. deep-research** (skill `deep-research`) — question construite dynamiquement :
 > « Marché du [secteur/offre] en [marché géo] en 2026 : taille & dynamique, audience cible et intentions d'achat, saisonnalité, canaux publicitaires dominants, benchmarks CPM/CPC/CPA/ROAS observés, contraintes réglementaires (RGPD, secteurs sensibles). »
@@ -42,6 +42,12 @@ Lance **les deux** en parallèle, avec les infos de l'intake :
 - Sites & pages de prix des concurrents cités (positionnement, offre, promesses).
 - **Meta Ad Library** (`facebook.com/ads/library`) et **Google Ads Transparency Center** pour le secteur/concurrents : formats, angles, volume de créas actives.
 - Requêtes du secteur pour repérer les acteurs qui enchérissent.
+
+**C. Voix du client** : suis `01-strategie/cible/Cible - Mener la recherche voix du client.md`.
+- Demande d'abord les **sources internes** disponibles (notes d'appels, réponses aux formulaires, motifs de perte, sondage après achat). Ce sont les seules qui donnent la voix des non-acheteurs.
+- Collecte ensuite les sources publiques : avis (toutes notes) du client et des concurrents, forums, commentaires sous les publicités.
+- Consigne chaque citation dans `00-contexte/projet-N/recherche.md` avec **auteur, source, date et type de voix**. Aucune citation sans source : ce qui n'est pas sourcé s'écrit `[Hypothèse]`, sans guillemets.
+- Si le web est vide (fréquent sur un marché de niche francophone), écris-le et propose les entretiens ou le sondage. Ne comble pas le vide.
 
 **Synthèse** : extrais 5-8 insights actionnables (opportunités, angles sous-exploités, niveau de concurrence par plateforme, fourchettes de coûts réalistes). Croise avec les benchmarks du corpus :
 - `skills/references/01-strategie/benchmarks/Benchmarks - Repères de performance 2026.md`
@@ -55,9 +61,10 @@ Lance **les deux** en parallèle, avec les infos de l'intake :
 2. **Sélection des plateformes** — `skills/references/01-strategie/analyse/Analyse - Méthode allocation et scaling.md`. Recoupe : audience par plateforme, adéquation offre, **minimums de budget** (ne recommande pas une plateforme sous son seuil viable), cycle de vente & attribution.
 3. **Budget 70/20/10** — Proven 70 % / Scaling 20 % / Testing 10 %, réparti sur les plateformes retenues, avec pacing mois 1→6.
 4. **Architecture de campagnes** — nomenclature `[Plateforme]_[Objectif]_[Audience]_[Geo]_[Date]` + structure Brand / Prospecting (tunnel haut→bas) / Retargeting / Testing. (Réutilise les patterns de `impulsion-plan-media`.)
-5. **Stratégie créative** — piliers (douleur, preuve sociale, démo, offre, éducation) + plan de production par priorité. Réfs : `skills/references/01-strategie/redaction/Rédaction - Méthodes publicitaires.md`, `skills/references/01-strategie/specs-creatives/Specs - Spécifications créatives cross-plateforme.md`.
-6. **Tracking & conformité** — `skills/references/01-strategie/conformite/Conformité - Suivi cross-plateforme.md` + `Conformité - Confidentialité et RGPD 2026.md`. Client-side + server-side (Enhanced Conversions, CAPI, Events API) à poser AVANT lancement.
-7. **Roadmap** — Phase 1 Fondations (S1-2) · Phase 2 Lancement (S3-4) · Phase 3 Optimisation (S5-8, règle des 3x kill) · Phase 4 Scaling (S9-12, règle des 20 %).
+5. **Fondations du message** : à partir de `recherche.md`, remplis `00-contexte/projet-N/cible.md` (`Cible - Définir l'avatar (ICP).md`, puis `Cible - [Review] Qualité de l'avatar.md`) et `offre.md` (`Offre - Rédiger le brief d'offre.md`). Le brief fixe le **niveau de conscience** (`Rédaction - Niveaux de conscience.md`), le **stade de sophistication** (`Rédaction - Sophistication du marché.md`), les **deux mécanismes** (`Offre - Mécanisme du problème et de la solution.md`) et **six croyances au maximum** (`Offre - Définir les croyances nécessaires.md`). Une rubrique sans matière reste marquée « à compléter » avec la procédure à mener.
+6. **Stratégie créative** — une créative par croyance à installer, puis piliers (douleur, preuve sociale, démo, offre, éducation) + plan de production par priorité. Réfs : `skills/references/01-strategie/redaction/Rédaction - Méthodes publicitaires.md`, `skills/references/01-strategie/specs-creatives/Specs - Spécifications créatives cross-plateforme.md`.
+7. **Tracking & conformité** — `skills/references/01-strategie/conformite/Conformité - Suivi cross-plateforme.md` + `Conformité - Confidentialité et RGPD 2026.md`. Client-side + server-side (Enhanced Conversions, CAPI, Events API) à poser AVANT lancement.
+8. **Roadmap** — Phase 1 Fondations (S1-2) · Phase 2 Lancement (S3-4) · Phase 3 Optimisation (S5-8, règle des 3x kill) · Phase 4 Scaling (S9-12, règle des 20 %).
 
 > Pour la planification détaillée (KPI cibles, pacing, roadmap complète), tu peux **déléguer à `impulsion-plan-media`** avec le secteur détecté, puis enrichir avec les insights de la recherche marché.
 
@@ -66,7 +73,7 @@ Lance **les deux** en parallèle, avec les infos de l'intake :
 ## Étape 4 — Livrables
 
 ### A. Document `STRATEGIE-<projet>.md`
-Écris-le à la racine du projet courant, en suivant `references/template-strategie.md` (bundle de ce skill). Il contient : synthèse exécutive, contexte & marché (recherche citée), positionnement, plateformes retenues + justification, budget 70/20/10, architecture de campagnes, stratégie créative, plan tracking/conformité, roadmap 90 jours, KPI cibles, risques.
+Écris-le à la racine du projet courant, en suivant `references/template-strategie.md` (bundle de ce skill). Il contient : synthèse exécutive, contexte & marché (recherche citée), avatar et voix du client, positionnement (conscience, sophistication, mécanismes, croyances), plateformes retenues + justification, budget 70/20/10, architecture de campagnes, stratégie créative, plan tracking/conformité, roadmap 90 jours, KPI cibles, risques.
 
 ### B. Plan média **visuel** (Artifact)
 Charge d'abord le skill **`artifact-design`**, puis génère un Artifact HTML autonome :
@@ -80,5 +87,6 @@ Charge d'abord le skill **`artifact-design`**, puis génère un Artifact HTML au
 - **Cite** chaque doc du corpus utilisé (chemin relatif) pour que l'utilisateur puisse le rouvrir.
 - **Vérifie budget vs minimums** : mieux vaut 1 plateforme bien financée que 3 sous-alimentées.
 - **RGPD 2026** : consent mode + server-side non négociables ; signale les secteurs sensibles (santé, finance).
+- **Citations** : aucune parole de client sans source dans les livrables. Vérifie trois citations au hasard avant de rendre le document.
 - Reste **factuel** : distingue ce qui vient de la recherche (cité) de ce qui vient des heuristiques du corpus. Pas d'invention de chiffres marché — si non trouvés, dis-le.
-- Le contexte client détaillé peut vivre dans `00-contexte/projet-N/` — propose de l'y consigner pour les futures tâches.
+- Le contexte client vit dans `00-contexte/projet-N/` : `recherche.md`, `cible.md` et `offre.md` sont des livrables de ce skill, les skills de création les relisent.

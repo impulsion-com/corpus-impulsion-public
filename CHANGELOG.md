@@ -4,6 +4,28 @@ Toutes les évolutions notables du Corpus Impulsion. Format basé sur [Keep a Ch
 
 ---
 
+## [2.5.0] - 2026-10-09
+
+### Ajouté
+- **Fondations du message : recherche, mécanismes, croyances, brief d'offre.** Six documents dans `01-strategie/`, qui portent le corpus de 308 à **314 documents** :
+  - `cible/Cible - Mener la recherche voix du client.md` (SOP) : sources internes et publiques, 18 questions de recherche, journal de citations sourcées, prompt de recherche approfondie.
+  - `cible/Cible - [Review] Qualité de l'avatar.md` (checklist) : refuse toute citation sans source.
+  - `redaction/Rédaction - Sophistication du marché.md` (fiche) : les 5 stades, le diagnostic et le croisement avec les niveaux de conscience.
+  - `offre/Offre - Mécanisme du problème et de la solution.md` (fiche).
+  - `offre/Offre - Définir les croyances nécessaires.md` (SOP) : six croyances au maximum, chacune reliée à une preuve et à un emplacement, utilisable comme grille d'audit.
+  - `offre/Offre - Rédiger le brief d'offre.md` (SOP).
+- `00-contexte/projet-1/recherche.md` : gabarit du journal de recherche.
+
+### Modifié
+- `00-contexte/projet-1/cible.md` : niveau de conscience, solutions déjà essayées, banque de citations avec source, parcours émotionnel, points à vérifier.
+- `00-contexte/projet-1/offre.md` : devient le brief d'offre (sophistication, idée directrice, mécanismes, objections et réponses, croyances, ce qu'il ne faut jamais promettre).
+- `00-contexte/projet-1/marché.md` : section « Solutions déjà utilisées par le marché ».
+- `Cible - Définir l'avatar (ICP).md` : règle de la source, renvoi vers la recherche et la checklist.
+- Skill `impulsion-strategie` : recherche voix du client en étape 2, remplissage de `recherche.md`, `cible.md` et `offre.md`, sections « Avatar & voix du client » et « Positionnement & message » dans le gabarit de stratégie.
+- Skill `impulsion-creer-campagne-meta` : les angles partent des croyances nécessaires, une croyance par créative.
+
+---
+
 ## [2.4.0] - 2026-07-29
 
 ### Ajouté

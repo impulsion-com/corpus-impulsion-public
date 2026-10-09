@@ -1,13 +1,13 @@
 ---
 name: impulsion-corpus
-description: "Donne accès au Corpus Impulsion : 308 documents opérationnels de media buying en français (SOP, checklists, fiches techniques) couvrant Google Ads, Meta Ads, TikTok Ads, landing pages et stratégie d'acquisition. Localise la racine du corpus depuis n'importe quel dossier de travail, trouve le bon document, et route vers les 12 skills spécialisées impulsion. Utilise cette skill dès que la demande touche à la publicité payante, même si l'utilisateur ne mentionne pas le corpus : Google Ads, Search, PMax, Performance Max, Demand Gen, Shopping, RSA, mots-clés, niveau de qualité, Meta Ads, Facebook Ads, Instagram Ads, Advantage+, pixel, CAPI, TikTok Ads, Spark Ads, landing page, tunnel de conversion, suivi des conversions, tracking, ROAS, CPA, CTR, budget média, enchères, scaling, créatives, angles marketing, audit de compte, stratégie d'acquisition, media buying, media buyer."
+description: "Donne accès au Corpus Impulsion : 314 documents opérationnels de media buying en français (SOP, checklists, fiches techniques) couvrant Google Ads, Meta Ads, TikTok Ads, landing pages et stratégie d'acquisition. Localise la racine du corpus depuis n'importe quel dossier de travail, trouve le bon document, et route vers les 12 skills spécialisées impulsion. Utilise cette skill dès que la demande touche à la publicité payante, même si l'utilisateur ne mentionne pas le corpus : Google Ads, Search, PMax, Performance Max, Demand Gen, Shopping, RSA, mots-clés, niveau de qualité, Meta Ads, Facebook Ads, Instagram Ads, Advantage+, pixel, CAPI, TikTok Ads, Spark Ads, landing page, tunnel de conversion, suivi des conversions, tracking, ROAS, CPA, CTR, budget média, enchères, scaling, créatives, angles marketing, audit de compte, stratégie d'acquisition, media buying, media buyer."
 argument-hint: "[sujet ou question, ex. : suivi des conversions Google Ads]"
 license: impulsion.com (contenu du corpus)
 ---
 
 # Corpus Impulsion — accès et routage
 
-Le Corpus Impulsion est une bibliothèque de **308 documents opérationnels** de media buying en français, conçus par [impulsion.com](https://impulsion.com). C'est la **source de vérité** pour toute tâche Google Ads, Meta Ads, TikTok Ads, site web / landing page ou stratégie d'acquisition.
+Le Corpus Impulsion est une bibliothèque de **314 documents opérationnels** de media buying en français, conçus par [impulsion.com](https://impulsion.com). C'est la **source de vérité** pour toute tâche Google Ads, Meta Ads, TikTok Ads, site web / landing page ou stratégie d'acquisition.
 
 L'intérêt du corpus n'est pas d'être une encyclopédie de plus : ce sont des procédures testées, avec des seuils chiffrés et des ordres d'opérations qui évitent les erreurs coûteuses (budgets cramés, tracking faux, comptes cassés). Une méthode improvisée sur le moment passera à côté de ces détails. Cherche donc le document avant de répondre de mémoire.
 
@@ -62,7 +62,7 @@ Quand le contexte manque et que l'utilisateur veut démarrer un client de zéro,
 
 Les noms de fichiers sont explicites : tu peux identifier le bon document sans ouvrir les autres.
 
-Pour la liste complète des 308 documents avec leur type, lis `references/index-corpus.md`. Consulte-le quand le nom du document ne se devine pas ou que tu veux couvrir un sujet exhaustivement ; pour une demande évidente, va directement au fichier.
+Pour la liste complète des 314 documents avec leur type, lis `references/index-corpus.md`. Consulte-le quand le nom du document ne se devine pas ou que tu veux couvrir un sujet exhaustivement ; pour une demande évidente, va directement au fichier.
 
 ### Convention de nommage
 

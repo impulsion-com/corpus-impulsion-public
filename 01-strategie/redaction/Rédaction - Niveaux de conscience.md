@@ -254,6 +254,7 @@ Ils vous connaissent déjà. **Concluez le deal.**
 
 | **Document** | **Relation** |
 | --- | --- |
+| [Fiche - Sophistication du marché](<Rédaction - Sophistication du marché.md>) | Complément (combien de fois la promesse a déjà été entendue) |
 | [Audience Strategy Mental Model](<../../03-google-ads/audiences/Audiences - Stratégie d'audience.md>) | Fondation (le document de température d'audience correspond aux niveaux de conscience) |
 | [Upper Funnel Campaign Structure Mental Model](<../../03-google-ads/strategie/Strategie - Structure de campagne haut de tunnel.md>) | Applique les niveaux de conscience aux tiers de campagnes Display/Video/Demand Gen |
 | [SOP - Creer vos angles d'offre](<../offre/Offre - Travailler vos angles d'offre.md>)  | Utilise ceci pour prioriser l'extraction des angles |

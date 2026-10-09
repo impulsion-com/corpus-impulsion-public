@@ -3,7 +3,7 @@
 > **Dossier :** 00-contexte
 > **Rôle :** contexte à **remplir obligatoirement** puis à consulter **avant** toute tâche de media buying.
 
-Ce dossier centralise le contexte de chaque client / projet. L'objectif : que l'agent IA (et l'humain) disposent de tout le contexte business — entreprise, finance, marché, offre, cible, système d'acquisition — avant de lancer, optimiser ou analyser des campagnes.
+Ce dossier centralise le contexte de chaque client / projet. L'objectif : que l'agent IA (et l'humain) disposent de tout le contexte business — entreprise, finance, marché, offre, recherche, cible, système d'acquisition — avant de lancer, optimiser ou analyser des campagnes.
 
 ---
 
@@ -16,8 +16,9 @@ Ce dossier centralise le contexte de chaque client / projet. L'objectif : que l'
     ├── entreprise.md           descriptif du projet, organigramme
     ├── finance.md              objectifs CA/ventes, croissance, rentabilité
     ├── marché.md               réglementation, concurrents
-    ├── offre.md                services, prix, avantages concurrentiels
-    ├── cible.md                ICP & persona, style d'écriture et ton
+    ├── offre.md                brief d'offre : services, prix, mécanismes, objections, croyances
+    ├── recherche.md            journal des citations clients, sourcées
+    ├── cible.md                ICP & persona, citations, style d'écriture et ton
     └── systeme-acquisition.md  parcours client, tunnel, outils, plateformes
 
 (Pour plusieurs clients : dupliquer projet-1/ en projet-2/, projet-3/…)

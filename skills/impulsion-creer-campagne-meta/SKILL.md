@@ -17,7 +17,7 @@ Ce skill **produit du livrable**. Il ne remplace pas la stratégie (`impulsion-s
 
 ## Étape 0 — Charger le brief + compléter les champs tactiques
 
-1. **Lis le brief projet** dans `00-contexte/projet-N/` (par défaut `projet-1/`) : `entreprise.md`, `offre.md`, `cible.md`, `finance.md`. Récupère : secteur, offre précise, persona (douleurs, désirs), objectif de la pub + KPI.
+1. **Lis le brief projet** dans `00-contexte/projet-N/` (par défaut `projet-1/`) : `entreprise.md`, `offre.md`, `cible.md`, `finance.md`. Récupère : secteur, offre précise, persona (douleurs, désirs, **banque de citations**), **croyances nécessaires** et **mécanismes** du brief d'offre, objectif de la pub + KPI.
    - Si un champ critique porte encore `_À compléter._`, **arrête-toi et demande l'info** avant de produire.
 2. **Complète les champs manquants** (en **un seul appel `AskUserQuestion`**, ou une relance texte si l'outil n'est pas disponible) :
    - **Différenciateurs réels** : preuves, chiffres, garanties (rien d'inventé).
@@ -35,13 +35,15 @@ Selon l'argument (`angles`, `textes`, `visuel`), ne produis que le bloc demandé
 
 **Docs :** `01-strategie/offre/Offre - Travailler vos angles d'offre.md`, `01-strategie/redaction/Rédaction - Niveaux de conscience.md`, `04-meta-ads/lancement/Lancement - Les 5 typologies de campagne.md`.
 
-**Sélectionne les angles et concepts** pertinents pour CE persona (ne coche pas tout : 3 à 5 angles priorisés).
+**Pars des croyances nécessaires** de `offre.md` (`01-strategie/offre/Offre - Définir les croyances nécessaires.md`) : priorise celles dont la colonne « Couverte ? » dit Non ou Partiel. **Une créative installe une seule croyance.** Si la section est vide, propose de la remplir d'abord ; à défaut, travaille depuis les objections de `cible.md` et signale-le.
+
+**Sélectionne ensuite les angles et concepts** pertinents pour CE persona (ne coche pas tout : 3 à 5 angles priorisés).
 
 **Angles marketing** (choisir parmi) : douleur, désir, avant/après, comparaison, preuve sociale, autorité, urgence, économie, peur/FOMO, curiosité, identification, storytelling.
 
 **Concepts créatifs** (choisir parmi) : facecam UGC, micro-trottoir, démo produit, storytelling fondateur, avant/après, comparaison, témoignage, tutoriel, unboxing, réaction/POV, listicle, behind the scenes.
 
-**Livrable** — un tableau `Angle | Pourquoi il colle à ce persona | Concept créatif servant l'angle | Niveau de conscience visé`. Priorise du plus chaud (douleur/preuve sociale, souvent le plus performant en acquisition) au plus froid. Ces angles/concepts alimentent ensuite les textes (bloc 2) et les visuels (bloc 3) : **garde la cohérence**.
+**Livrable** — un tableau `Croyance installée | Angle | Pourquoi il colle à ce persona | Concept créatif servant l'angle | Niveau de conscience visé`. Priorise du plus chaud (douleur/preuve sociale, souvent le plus performant en acquisition) au plus froid. Ces angles/concepts alimentent ensuite les textes (bloc 2) et les visuels (bloc 3) : **garde la cohérence**.
 
 ---
 
@@ -55,7 +57,7 @@ Génère **3 variantes**, chacune sur un **angle différent** (pour permettre l'
 3. **Titre (headline)** — 5-8 mots max.
 4. **Description** — 1 ligne.
 
-**Règles :** commence par une accroche qui stoppe le scroll ; emojis avec parcimonie (2-3 max) ; CTA clair à la fin ; pas de majuscules abusives ; **n'invente aucun chiffre ni témoignage** (uniquement les preuves du brief). Les 3 variantes couvrent 3 angles distincts.
+**Règles :** commence par une accroche qui stoppe le scroll ; emojis avec parcimonie (2-3 max) ; CTA clair à la fin ; pas de majuscules abusives ; **n'invente aucun chiffre ni témoignage** (uniquement les preuves du brief) ; les mots du client viennent de la banque de citations de `cible.md`, jamais d'une reformulation présentée comme une citation. Les 3 variantes couvrent 3 angles distincts.
 
 Présente en tableau ou en blocs copiables (primary text / headline / description séparés), prêts à coller dans le gestionnaire de publicités Meta.
 

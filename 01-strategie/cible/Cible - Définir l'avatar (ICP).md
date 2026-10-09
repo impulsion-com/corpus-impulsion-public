@@ -3,7 +3,7 @@
 > **Plateforme :** Stratégie
 > **Catégorie :** Cible
 > **Type :** SOP
-> **Mis à jour :** 2026-07-09
+> **Mis à jour :** 2026-10-09
 
 ## Objectif
 
@@ -19,6 +19,7 @@ Cette SOP vous guide pour définir précisément **l'avatar** (profil client id�
 
 Cette SOP ne couvre **pas :**
 
+- La collecte des citations clients (Voir : [SOP - Mener la recherche voix du client](<Cible - Mener la recherche voix du client.md>))
 - La construction de l'offre (Voir : [SOP - Créer une offre irrésistible](<../offre/Offre - Créer une offre irrésistible.md>))
 - Les angles d'offre (Voir : [SOP - Travailler vos angles d'offre](<../offre/Offre - Travailler vos angles d'offre.md>))
 - Les niveaux de conscience du prospect (Voir : [Fiche - Niveaux de conscience](<../redaction/Rédaction - Niveaux de conscience.md>))
@@ -48,6 +49,7 @@ Lancez cette SOP quand :
 | Document | Utilisé pour |
 |----------|----------|
 | `00-contexte/projet-N/cible.md` | Fichier de sortie à compléter |
+| `00-contexte/projet-N/recherche.md` | Journal des citations sourcées, à remplir avant ([SOP - Mener la recherche voix du client](<Cible - Mener la recherche voix du client.md>)) |
 | [SOP - Créer une offre irrésistible](<../offre/Offre - Créer une offre irrésistible.md>) | Aligner l'offre sur les douleurs/désirs |
 | [Fiche - Niveaux de conscience](<../redaction/Rédaction - Niveaux de conscience.md>) | Adapter le message au niveau de conscience |
 
@@ -133,6 +135,23 @@ Où l'atteindre — nourrit directement le ciblage, les emplacements et le ton :
 
 > 💡 **Le verbatim client > toute hypothèse interne.** Reprendre les mots exacts du client dans le copy et les créas.
 
+> ⚠️ **Chaque citation porte sa source** (auteur, lieu, date). Un avatar rédigé par un modèle de langage sans journal de recherche contient presque toujours des citations inventées. Ce qui n'a pas de source s'écrit `[Hypothèse]`, sans guillemets.
+
+Pour une recherche complète (sources internes, liste de questions, journal) : [SOP - Mener la recherche voix du client](<Cible - Mener la recherche voix du client.md>).
+
+---
+
+## Au-delà des 6 blocs
+
+Le gabarit `cible.md` demande quatre éléments de plus, tous tirés du journal de recherche :
+
+| Élément | Pourquoi |
+|---------|----------|
+| **Solutions déjà essayées** | Elles fondent le mécanisme et la différenciation |
+| **Banque de citations** classée par rubrique | Matière première des accroches et des scripts |
+| **Parcours émotionnel type** (prise de conscience, frustration, recherche, soulagement) | Structure des pages et des vidéos |
+| **Ce qui reste à vérifier** | Évite de prendre une hypothèse pour un fait |
+
 ---
 
 ## Validation et critères de complétion
@@ -143,6 +162,8 @@ Cette SOP est terminée quand :
 - [ ] Les douleurs et désirs sont formulés en **verbatim** (mots du client), pas en jargon interne
 - [ ] Chaque objection principale a une réponse préparée
 - [ ] Les sources d'info / l'écosystème sont documentés (pour le ciblage et les emplacements)
+- [ ] Chaque citation renvoie à une ligne de `recherche.md`, les hypothèses sont marquées
+- [ ] La [Checklist - Qualité de l'avatar](<Cible - [Review] Qualité de l'avatar.md>) est passée
 - [ ] Le statut de `cible.md` est passé à ✅ Complété
 
 ---
@@ -151,6 +172,8 @@ Cette SOP est terminée quand :
 
 | Étape suivante | Rediriger vers |
 |----------------|----------------|
+| Formuler ce que le prospect doit croire | [SOP - Définir les croyances nécessaires](<../offre/Offre - Définir les croyances nécessaires.md>) |
+| Assembler le brief d'offre | [SOP - Rédiger le brief d'offre](<../offre/Offre - Rédiger le brief d'offre.md>) |
 | Construire / aligner l'offre | [SOP - Créer une offre irrésistible](<../offre/Offre - Créer une offre irrésistible.md>) |
 | Travailler les angles | [SOP - Travailler vos angles d'offre](<../offre/Offre - Travailler vos angles d'offre.md>) |
 | Adapter le message au niveau de conscience | [Fiche - Niveaux de conscience](<../redaction/Rédaction - Niveaux de conscience.md>) |
@@ -164,6 +187,7 @@ Cette SOP est terminée quand :
 |---------|----------------|--------------|
 | Avatar trop large (« les femmes 25-55 ») | Peur d'exclure | Un avatar précis convertit mieux qu'un avatar large |
 | Inventer les douleurs | Pas d'accès client | Interviewer 3-5 clients réels, lire les avis |
+| Citations générées par l'IA | Le gabarit en réclame, le modèle les fournit | Exiger la source, passer la checklist qualité |
 | Jargon interne au lieu du verbatim | Biais du vendeur | Reprendre les mots exacts du client |
 | Oublier l'écosystème | Focus sur le « qui », pas le « où » | Documenter les sources d'info (bloc 6) |
 | Un seul avatar pour plusieurs offres | Gain de temps illusoire | Un avatar par produit / offre |

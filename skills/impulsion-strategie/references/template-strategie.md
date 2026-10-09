@@ -17,17 +17,32 @@ _Issu de la recherche (deep-research + firecrawl). **Sourcé.**_
 - **Concurrents (Ad Library / Transparency) :** angles dominants, formats, intensité par plateforme, **angles sous-exploités** (opportunité).
 - **Contraintes réglementaires :** {RGPD / secteur sensible / restrictions plateforme}.
 
-## 3. Positionnement & angle
-_La promesse principale + 2-3 angles à tester, alignés sur l'offre et les manques concurrents._
+## 3. Avatar & voix du client
+_Issu de `00-contexte/projet-N/recherche.md` et `cible.md`. **Chaque citation porte sa source.**_
+- **Avatar en trois lignes :** situation, déclencheur, ce qu'il a déjà essayé.
+- **Citations clés (5) :** deux douleurs, une solution essayée, une objection, un résultat.
+- **Ce qui reste une hypothèse / ce qui n'a pas été trouvé :** …
 
-## 4. Plateformes retenues
+## 4. Positionnement & message
+_Issu de `00-contexte/projet-N/offre.md` (brief d'offre)._
+- **Niveau de conscience dominant :** … · **Stade de sophistication :** … (justifié)
+- **Idée directrice :** …
+- **Mécanisme du problème :** … · **Mécanisme de la solution :** …
+
+| # | Croyance à installer (« Je crois que… ») | Preuve | Où l'installer | Couverte ? |
+|---|---|---|---|---|
+| 1 | … | … | … | Oui / Partiel / Non |
+
+_2-3 angles à tester, chacun rattaché à une croyance non couverte._
+
+## 5. Plateformes retenues
 | Plateforme | Rôle | Pourquoi | Budget/mois | Min. viable ? |
 |---|---|---|---|---|
 | … | Proven / Scaling / Testing | … | … € | ✅/⚠️ |
 
 _Justification via `Analyse - Méthode allocation et scaling.md` + minimums de `Benchmarks - Budgets minimums viables.md`._
 
-## 5. Budget — répartition 70/20/10
+## 6. Budget — répartition 70/20/10
 | Tier | % | Plateforme(s) | Montant/mois |
 |---|---|---|---|
 | Proven (70 %) | | | |
@@ -36,7 +51,7 @@ _Justification via `Analyse - Méthode allocation et scaling.md` + minimums de `
 
 _Pacing : mois 1-2 apprentissage (CPA élevé attendu) → mois 3-4 optimisation → mois 5-6 scaling._
 
-## 6. Architecture de campagnes
+## 7. Architecture de campagnes
 _Nomenclature `[Plateforme]_[Objectif]_[Audience]_[Geo]_[Date]`._
 ```
 Compte
@@ -47,17 +62,17 @@ Compte
 ```
 _Détail par plateforme retenue (campagnes, ensembles, audiences)._
 
-## 7. Stratégie créative
+## 8. Stratégie créative
 - **Piliers :** douleur · preuve sociale · démo · offre · éducation.
 - **Plan de production (P1→P5) :** formats × plateformes × quantités.
 - **Specs :** cf. `Specs - Spécifications créatives cross-plateforme.md`.
 
-## 8. Tracking & conformité
+## 9. Tracking & conformité
 - **Client-side :** {gtag / Pixel / Events}.
 - **Server-side :** {Enhanced Conversions / CAPI / Events API} — **avant lancement**.
 - **RGPD :** consent mode + `Conformité - Confidentialité et RGPD 2026.md`.
 
-## 9. Roadmap 90 jours
+## 10. Roadmap 90 jours
 | Phase | Semaines | Actions clés |
 |---|---|---|
 | 1 · Fondations | S1-2 | tracking, structure, audiences, 1er batch créas |
@@ -65,13 +80,13 @@ _Détail par plateforme retenue (campagnes, ensembles, audiences)._
 | 3 · Optimisation | S5-8 | data ≥ 2 sem, ajuster enchères, kill 3x, A/B, 2e plateforme |
 | 4 · Scaling | S9-12 | scaler gagnants (+20 %), testing 10 %, revues mensuelles |
 
-## 10. KPI cibles
+## 11. KPI cibles
 | Métrique | M1 | M3 | M6 |
 |---|---|---|---|
 | ROAS / CPA | baseline | cible −20 % | cible |
 | CVR / CTR | baseline | +10-15 % | +20-25 % |
 
-## 11. Risques & hypothèses
+## 12. Risques & hypothèses
 _Ce qui pourrait invalider le plan (budget sous minimum, offre non prête, tracking incomplet, saisonnalité)._
 
 ---
